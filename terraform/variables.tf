@@ -1,0 +1,11 @@
+variable "resource_group_name" {
+  default = "devops-rg"
+}
+
+variable "location" {
+  default = "Central India"
+}
+
+variable "acr_name" {
+  default = "devopsacr12345"
+}
